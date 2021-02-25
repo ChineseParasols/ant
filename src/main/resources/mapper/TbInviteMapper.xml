@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.antexploration.ant.Interactive.mapper.TbInviteMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.antexploration.ant.Interactive.entity.TbInvite">
+        <id column="invite_id" property="inviteId" />
+        <result column="uid" property="uid" />
+        <result column="parent_id" property="parentId" />
+        <result column="id_path" property="idPath" />
+        <result column="parent_id_path" property="parentIdPath" />
+        <result column="name_path" property="namePath" />
+        <result column="invite_time" property="inviteTime" />
+    </resultMap>
+
+</mapper>

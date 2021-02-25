@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.antexploration.ant.Interactive.mapper.TbProfitMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.antexploration.ant.Interactive.entity.TbProfit">
+        <id column="income_id" property="incomeId" />
+        <result column="user_id" property="userId" />
+        <result column="profit_id" property="profitId" />
+        <result column="profit_unit" property="profitUnit" />
+        <result column="profit_type" property="profitType" />
+        <result column="recording_time" property="recordingTime" />
+    </resultMap>
+
+</mapper>

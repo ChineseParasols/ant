@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.antexploration.ant.Interactive.mapper.TbAssetsOrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.antexploration.ant.Interactive.entity.TbAssetsOrder">
+        <id column="assets_id" property="assetsId" />
+        <result column="uid" property="uid" />
+        <result column="coin_type" property="coinType" />
+        <result column="from_address" property="fromAddress" />
+        <result column="to_address" property="toAddress" />
+        <result column="assets_type" property="assetsType" />
+        <result column="assets_status" property="assetsStatus" />
+        <result column="assets_time" property="assetsTime" />
+    </resultMap>
+
+</mapper>
